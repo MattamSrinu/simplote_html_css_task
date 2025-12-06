@@ -84,7 +84,7 @@ body {
 }
 .image-grid img:nth-child(1) {
     width: 100%;
-    height: 280px;
+    height: 250px;
     border-radius: 0px;
     object-fit: cover;
 }
@@ -92,20 +92,20 @@ body {
     grid-column: 2;
     grid-row: span 2;
     width: 100%;
-    height: 580px;
+    height: 525px;
     border-radius: 0px;
     object-fit: cover;
 }
 .image-grid img:nth-child(3) {
     width: 100%;
-    height: 280px;
+    height: 250px;
     border-radius: 0px;
     object-fit: cover;
 }
 .content-box {
     width: 45%;
     background: #ff7070;
-    padding: 60px 80px;
+    padding: 50px 80px;
     border-radius: 0px;
     box-sizing: border-box;
 }
@@ -115,7 +115,7 @@ body {
     letter-spacing: 1px;
 }
 .content-box h1 {
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -178,10 +178,13 @@ body {
         padding: 0 20px;
     }
 
-    .hero-text,
-    .hero-img {
+    .hero-text{
         width: 100%;
         padding: 5px;
+    }
+    .hero-img {
+        width: 100%;
+        padding-top: 10px;
     }
 
     .hero-text h1 {
@@ -227,11 +230,11 @@ body {
     }
     .content-box {
         width: 100%;
-        padding: 30px 20px;
+        padding: 25px 20px;
     }
 
     .content-box h1 {
-        font-size: 32px;
+        font-size: 25px;
     }
     .click-link {
         font-size: 18px;
@@ -245,7 +248,7 @@ body {
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
     .navbar {
         padding: 18px 30px;
         width: 100%;
@@ -323,88 +326,5 @@ body {
     }
 }
 
-@media only screen and (width: 1024px) {
-    .navbar {
-        padding: 18px 40px;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1000;
-        background: #ff7878;
-    }
-    .nav-menu {
-        gap: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-right: 20px;
-    }
-    .menu-icon {
-        display: none;
-    }
-    .hero {
-        height: auto;
-        margin-top: 100px;
-        padding: 0 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .hero-text {
-        width: 50%;
-        padding: 40px;
-    }
-    .hero-text h1 {
-        font-size: 45px;
-    }
-    .section-two {
-        padding: 80px 60px;
-        gap: 50px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .image-grid {
-        width: 50%;
-        gap: 25px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .image-grid img:nth-child(1) {
-        width: 100%;
-        height: 230px;
-        object-fit: cover;
-        border-radius: 0px;
-    }
-    .image-grid img:nth-child(2) {
-        width: 100%;
-        height: 480px;
-        grid-column: 2;
-        grid-row: span 2;
-        object-fit: cover;
-        border-radius: 0px;
-    }
-    .image-grid img:nth-child(3) {
-        width: 100%;
-        height: 230px;
-        object-fit: cover;
-        border-radius: 0px;
-    }
-    .content-box {
-        width: 45%;
-        padding: 30px 40px;
-        border-radius: 0px;
-    }
-    .content-box h1 {
-        font-size: 28px;
-    }
-    .click-link {
-        font-size: 20px;
-        gap: 8px;
-    }
-    .click-link img {
-        height: 22px;
-        width: 22px;
-    }
-}
+
 
